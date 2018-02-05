@@ -1,0 +1,51 @@
+$img-breakpoint: 50%;
+
+.site {
+  font-family: 'Roboto', sans-serif;
+
+  .welcome-message {
+    background-image: url('http://i.imgur.com/693FaOV.jpg');
+    background-position-y: 80%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: $img-breakpoint;
+    top: 0;
+    
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    z-index: 50;
+    
+    .me {
+      color: white;
+  
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 0;
+      transform: translateY(-50%);
+  
+      text-align: center;
+      
+      .name {
+        font-size: 60px;
+        
+      }
+      
+      .blurb {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  .site-body {
+    top: $img-breakpoint;
+    right: 0;
+    left: 0;
+    
+    position: absolute;
+    
+    height: 100% - $img-breakpoint;
+    
+    background: rgb(44, 44, 44);
+  }
+}
