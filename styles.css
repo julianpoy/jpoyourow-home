@@ -17,10 +17,7 @@ a {
 }
 
 .welcome img {
-  border-radius: 100%;
-  width: 100px;
   height: 100px;
-  object-fit: cover;
 }
 
 .welcome h2, .welcome b {
